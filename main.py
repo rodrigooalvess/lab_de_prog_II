@@ -10,3 +10,5 @@ if questao == 3:
     questao_3()
 if questao == 4:
     questao_4()
+if questao == 5:
+    questao_5()
