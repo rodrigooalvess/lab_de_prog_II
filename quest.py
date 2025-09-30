@@ -16,3 +16,18 @@ def questao_2():
         
     else:
         print('Opção Inválida')
+
+def questao_3():
+    usuarios = {
+        'admin': '1234',
+        'maria': 'abc@2025',
+        'joao': 'senha123'
+    }
+
+    login = input('Digite o Usuário: ')
+    senha = input('Digite a senha: ')
+
+    if usuarios.get(login) == senha:
+        print(f'Usuário Logado com Sucesso, Seja Bem-Vindo {login}')
+    else:
+        print('Usuário ou Senha Incorretos')
