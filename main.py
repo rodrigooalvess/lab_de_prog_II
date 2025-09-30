@@ -8,3 +8,5 @@ if questao == 2:
     questao_2()
 if questao == 3:
     questao_3()
+if questao == 4:
+    questao_4()
