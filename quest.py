@@ -49,3 +49,30 @@ def questao_3():
 def questao_4():
     numero = int(input('Digite um número pra verificar se ele é par ou ímpar: '))
     print(verificar_par_impar(numero))
+
+def questao_5():
+    notas_aluno = []
+
+    print("=== Controle de Notas ===")
+    while True:
+        entrada = input("Digite uma nota (ou 'sair' para encerrar): ")
+
+        if entrada.lower() == "sair":
+            break
+
+        try:
+            nota = float(entrada)
+            if 0 <= nota <= 10:
+                notas_aluno.append(nota)
+            else:
+                print("Digite uma nota entre 0 e 10.")
+        except ValueError:
+            print("Entrada inválida. Digite um número ou 'sair'.")
+
+    if notas_aluno:
+        print("\n--- Resultados ---")
+        print(f"Média: {media(notas_aluno):.2f}")
+        print(f"Maior: {maior(notas_aluno)}")
+        print(f"Menor: {menor(notas_aluno)}")
+    else:
+        print("Nenhuma nota foi informada.")
