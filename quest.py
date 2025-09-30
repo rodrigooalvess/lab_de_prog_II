@@ -45,3 +45,7 @@ def questao_3():
         print(f'Usuário Logado com Sucesso, Seja Bem-Vindo {login}')
     else:
         print('Usuário ou Senha Incorretos')
+
+def questao_4():
+    numero = int(input('Digite um número pra verificar se ele é par ou ímpar: '))
+    print(verificar_par_impar(numero))
