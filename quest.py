@@ -76,3 +76,16 @@ def questao_5():
         print(f"Menor: {menor(notas_aluno)}")
     else:
         print("Nenhuma nota foi informada.")
+
+def questao_6():
+    print('1 - Converter de Real p/ Dólar')
+    print('2 - Converter de Dólar p/ Real')
+    
+    opcao = int(input('Digite a opção que deseja: '))
+    valor = float(input('Digite o Valor que deseja converter:'))
+    cotacao = float(input('Digite a cotação atual: '))
+
+    if opcao == 1:
+        print(f'R${valor:.2} equivale a US${real_dolar(valor, cotacao):.2}')
+    if opcao == 2:
+        print(f'US${valor:.2} equivale a R${dolar_real(valor, cotacao):.2}')
