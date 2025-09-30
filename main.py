@@ -12,3 +12,7 @@ if questao == 4:
     questao_4()
 if questao == 5:
     questao_5()
+if questao == 6:
+    questao_6()
+else:
+    print('OPÇÃO INVÁLIDA')
