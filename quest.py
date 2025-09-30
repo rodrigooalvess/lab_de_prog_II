@@ -82,10 +82,12 @@ def questao_6():
     print('2 - Converter de Dólar p/ Real')
     
     opcao = int(input('Digite a opção que deseja: '))
-    valor = float(input('Digite o Valor que deseja converter:'))
+    valor = float(input('Digite o Valor que deseja converter: '))
     cotacao = float(input('Digite a cotação atual: '))
 
     if opcao == 1:
-        print(f'R${valor:.2} equivale a US${real_dolar(valor, cotacao):.2}')
-    if opcao == 2:
-        print(f'US${valor:.2} equivale a R${dolar_real(valor, cotacao):.2}')
+        print(f'R${valor:.2f} equivale a US${real_dolar(valor, cotacao):.2f}')
+    elif opcao == 2:
+        print(f'US${valor:.2f} equivale a R${dolar_real(valor, cotacao):.2f}')
+    else:
+        print('OPÇÃO INVÁLIDA')
