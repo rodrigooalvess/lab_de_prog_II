@@ -1,5 +1,19 @@
 from functions import *
 
+def questao_1():
+    frase = input('Digite uma frase: ').lower()
+    palavra = input('Digite uma palavra pra buscar: ').lower()
+
+    busca_palavra = frase.split()
+
+    contador = 0
+    
+    for i in busca_palavra:
+        if i == palavra:
+            contador += 1
+    
+    print(contador)
+
 def questao_2():
     print('Conversor de Temperaturas')
     print('1 - Celsius p/ Fahrenheit')
