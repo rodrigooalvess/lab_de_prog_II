@@ -4,4 +4,10 @@ def media(notas):
     for n in notas:
         total += n
     
-    media = total / quantidade
+    return total / quantidade
+
+def maior(notas):
+    return max(notas)
+
+def menor(notas):
+    return min(notas)
