@@ -1,6 +1,7 @@
 def media(notas):
     quantidade = len(notas)
-
+    total = 0
+    
     for n in notas:
         total += n
     
