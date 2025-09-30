@@ -1,6 +1,6 @@
 from quest import *
 
-questao = int(input('Digite a Questão (1 a 7): '))
+questao = int(input('Digite a Questão (1 a 6): '))
 
 if questao == 1:
     questao_1()
