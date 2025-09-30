@@ -1,6 +1,6 @@
 from functions import *
 
-def questao_1():
+def questao_2():
     print('Conversor de Temperaturas')
     print('1 - Celsius p/ Fahrenheit')
     print('2 - Fahrenheit p/ Celsius')
