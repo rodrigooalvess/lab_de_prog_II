@@ -14,6 +14,8 @@ def questao_1():
     
     print(contador)
 
+######################################################################################
+
 def questao_2():
     print('Conversor de Temperaturas')
     print('1 - Celsius p/ Fahrenheit')
@@ -31,6 +33,8 @@ def questao_2():
     else:
         print('Opção Inválida')
 
+######################################################################################
+
 def questao_3():
     usuarios = {
         'admin': '1234',
@@ -46,9 +50,13 @@ def questao_3():
     else:
         print('Usuário ou Senha Incorretos')
 
+######################################################################################
+
 def questao_4():
     numero = int(input('Digite um número pra verificar se ele é par ou ímpar: '))
     print(verificar_par_impar(numero))
+
+######################################################################################
 
 def questao_5():
     notas_aluno = []
@@ -76,6 +84,8 @@ def questao_5():
         print(f"Menor: {menor(notas_aluno):.2f}")
     else:
         print("Nenhuma nota foi informada.")
+
+######################################################################################
 
 def questao_6():
     print('1 - Converter de Real p/ Dólar')
