@@ -72,8 +72,8 @@ def questao_5():
     if notas_aluno:
         print("\n--- Resultados ---")
         print(f"Média: {media(notas_aluno):.2f}")
-        print(f"Maior: {maior(notas_aluno)}")
-        print(f"Menor: {menor(notas_aluno)}")
+        print(f"Maior: {maior(notas_aluno):.2f}")
+        print(f"Menor: {menor(notas_aluno):.2f}")
     else:
         print("Nenhuma nota foi informada.")
 
